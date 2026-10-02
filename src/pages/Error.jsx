@@ -7,7 +7,7 @@ const Error = () => {
       <p className="text-gray-400 mb-8 max-w-md">
         Parece que você se perdeu no mapa do jogo.A pagina que você procura não existe ou foi removida.
       </p>
-      <Link to="/">Voltar para o home</Link>
+      <Link to="/" className="text-white">Voltar para o home</Link>
     </main>
   )
 }
