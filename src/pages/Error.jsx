@@ -1,4 +1,4 @@
-import {link} from "react-router-dom"
+import {Link} from "react-router-dom"
 const Error = () => {
   return (
     <main className="px-[5%] my-20 grow text-center flex flex-col items-center justify-center">
@@ -7,7 +7,7 @@ const Error = () => {
       <p className="text-gray-400 mb-8 max-w-md">
         Parece que você se perdeu no mapa do jogo.A pagina que você procura não existe ou foi removida.
       </p>
-      <link to="/">Voltar para o home</link>
+      <Link to="/">Voltar para o home</Link>
     </main>
   )
 }
